@@ -124,7 +124,6 @@
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a href="#home" class="hover:text-cyan-400 text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
                         <a href="#products" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Products</a>
-                        <a href="#about" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">About Us</a>
                         <a href="#contact" class="bg-transparent border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white hover:shadow-[0_0_15px_rgba(6,182,212,0.6)] px-5 py-2 rounded-full text-sm font-medium transition-all duration-300">Contact Us</a>
                     </div>
                 </div>
@@ -285,28 +284,39 @@
             <div class="bg-dark-900 border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-10">
                 <div class="md:w-1/2">
                     <h2 class="font-display text-3xl font-bold text-white mb-4">Ready to automate your world?</h2>
-                    <p class="text-gray-400 mb-6">Whether you are an investor, distributor, or early adopter, let's connect and discuss how Vyuh Innovative Solutions can work with you.</p>
-                    <div class="flex flex-col gap-4">
-                        <div class="flex items-center gap-4 text-gray-300">
-                            <div class="w-10 h-10 rounded-full bg-dark-700 flex items-center justify-center text-cyan-400">
-                                <i class="fa-solid fa-envelope"></i>
+                    <p class="text-gray-400 mb-8">Whether you are an investor, distributor, or early adopter, let's connect and discuss how Vyuh Innovative Solutions can work with you.</p>
+                    
+                    <div class="flex flex-col gap-6">
+                        <div class="flex items-center gap-4 text-gray-300 group">
+                            <div class="w-12 h-12 rounded-full bg-dark-700 border border-white/5 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-900/30 group-hover:border-cyan-500/30 transition-all">
+                                <i class="fa-solid fa-envelope text-lg"></i>
                             </div>
-                            <span>hello@vyuhiot.com</span>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Email Us</p>
+                                <a href="mailto:dilkhush.sharma@vyuh.online" class="hover:text-cyan-400 transition-colors">dilkhush.sharma@vyuh.online</a>
+                            </div>
                         </div>
-                        <div class="flex items-center gap-4 text-gray-300">
-                            <div class="w-10 h-10 rounded-full bg-dark-700 flex items-center justify-center text-cyan-400">
-                                <i class="fa-solid fa-location-dot"></i>
+                        
+                        <div class="flex items-center gap-4 text-gray-300 group">
+                            <div class="w-12 h-12 rounded-full bg-dark-700 border border-white/5 flex items-center justify-center text-cyan-400 group-hover:bg-cyan-900/30 group-hover:border-cyan-500/30 transition-all">
+                                <i class="fa-solid fa-location-dot text-lg"></i>
                             </div>
-                            <span>Innovation Hub, Startup District, India</span>
+                            <div>
+                                <p class="text-xs text-gray-500 uppercase tracking-wider mb-1">Visit Us</p>
+                                <span>c296 azad nagar, Bhilwara, Rajasthan</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2 w-full">
-                    <form class="flex flex-col gap-4">
+                
+                <div class="md:w-1/2 w-full mt-8 md:mt-0">
+                    <form class="flex flex-col gap-4 bg-dark-800/50 p-6 rounded-2xl border border-white/5">
+                        <h3 class="text-white font-medium mb-2">Send us a message</h3>
                         <input type="text" placeholder="Your Name" class="w-full bg-dark-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
                         <input type="email" placeholder="Your Email" class="w-full bg-dark-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors">
-                        <button type="button" class="w-full bg-cyan-500 hover:bg-cyan-400 text-dark-900 font-bold py-3 px-4 rounded-lg transition-colors duration-300">
-                            Send Message
+                        <textarea placeholder="How can we help you?" rows="3" class="w-full bg-dark-700 border border-gray-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors resize-none"></textarea>
+                        <button type="button" class="w-full bg-cyan-500 hover:bg-cyan-400 text-dark-900 font-bold py-3 px-4 rounded-lg transition-colors duration-300 mt-2">
+                            Submit Inquiry
                         </button>
                     </form>
                 </div>
